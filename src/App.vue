@@ -1,15 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <carrinho />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Carrinho from './components/Carrinho'
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  components: { 
+    Carrinho
   }
 }
 </script>
@@ -22,5 +20,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+body {
+  background-color: #F0F0F0;
 }
 </style>
